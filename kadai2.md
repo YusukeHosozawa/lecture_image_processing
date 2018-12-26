@@ -25,10 +25,10 @@ colorbar; axis image;
 　原画像を４階調にするには，階調数に閾値を３つ設けることで４つの濃度に分けることができる。最大の閾値は256×(3/4)=192、
 中間の閾値は256×(2/4)=128、最小の閾値は256×(1/4)=64となる。すなわち、
 
-IMG0 = ORG>64;
-IMG1 = ORG>128;
-IMG2 = ORG>192;
-IMG = IMG0 + IMG1 + IMG2;
+IMG0 = ORG>64;  
+IMG1 = ORG>128;  
+IMG2 = ORG>192;  
+IMG = IMG0 + IMG1 + IMG2;  
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 とする。４階調画像の結果を図３に示す。
