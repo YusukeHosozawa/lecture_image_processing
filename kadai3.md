@@ -21,6 +21,7 @@ imagesc(IMG); colormap(gray); colorbar;
 ![原画像](https://github.com/YusukeHosozawa/lecture_image_processing/blob/master/image/kadai3_2.png)  
 図２ 輝度値変換画像１
 
+
 原画像の輝度値が96以上の画素を１、それ以外の画素を０に変換する。
  
 IMG = ORG > 96;  
@@ -30,6 +31,7 @@ imagesc(IMG); colormap(gray); colorbar;
 
 ![原画像](https://github.com/YusukeHosozawa/lecture_image_processing/blob/master/image/kadai3_3.png)  
 図３ 輝度値変換画像２
+
 
 原画像の輝度値が128以上の画素を１、それ以外の画素を０に変換する。
 
@@ -41,13 +43,13 @@ imagesc(IMG); colormap(gray); colorbar;
 ![原画像](https://github.com/YusukeHosozawa/lecture_image_processing/blob/master/image/kadai3_4.png)  
 図４ 輝度値変換画像３
 
+
 原画像の輝度値が192以上の画素を１、それ以外の画素を０に変換する。
 
 IMG = ORG > 192;
 imagesc(IMG); colormap(gray); colorbar;
 
 変換した画像の結果を図５に示す。
-
 
 ![原画像](https://github.com/YusukeHosozawa/lecture_image_processing/blob/master/image/kadai3_5.png)  
 図５ 輝度値変換画像４
