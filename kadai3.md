@@ -8,5 +8,10 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 によって、原画像を読み込み、白黒濃淡画像として表示する。表示した結果を図１に示す。
 
-![原画像](https://github.com/YusukeHosozawa/lecture_image_processing/blob/master/image/kadai2_2.png)  
-図２ ２階調画像
+![原画像](https://github.com/YusukeHosozawa/lecture_image_processing/blob/master/image/kadai3_1.png)  
+図１ 原画像の白黒濃淡画像
+
+　原画像を輝度値が64以上の画素を１、それ以外の画素を０に変換する。
+ 
+ IMG = ORG > 64; % 輝度値が64以上の画素を1，その他を0に変換
+imagesc(IMG); colormap(gray); colorbar;
