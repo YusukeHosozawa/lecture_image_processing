@@ -40,4 +40,4 @@ imagesc(IMG); colormap(gray); colorbar;
 によって、原画像を判別分析方で２値化する。表示した結果を図２に示す。
 
 ![原画像](https://github.com/YusukeHosozawa/lecture_image_processing/blob/master/image/kadai5_2.png)  
-図１ 判別分析方によって２値化した原画像
+図２ 判別分析方によって２値化した原画像
