@@ -6,10 +6,10 @@ ORG=imread('sample.png'); % 原画像の入力
 ORG=rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換  
 imagesc(ORG); colormap(gray); colorbar;  
 
-によって、原画像を読み込み、２値画像として表示する。表示した結果を図１に示す。
+によって、原画像を読み込み、白黒濃淡画像として表示する。表示した結果を図１に示す。
 
 ![原画像](https://github.com/YusukeHosozawa/lecture_image_processing/blob/master/image/kadai4_1.png)  
-図１ ２値化した原画像
+図１ 原画像の白黒濃淡画像
 
 ２値化された原画像のヒストグラムを表示する。
 
@@ -18,4 +18,4 @@ imhist(ORG); % ヒストグラムの表示
 によって、原画像のヒストグラムを表示する。表示した結果を図２に示す。
 
 ![原画像](https://github.com/YusukeHosozawa/lecture_image_processing/blob/master/image/kadai4_2.png)  
-図１ 原画像のヒストグラム
+図２ 原画像のヒストグラム
